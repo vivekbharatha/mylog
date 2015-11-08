@@ -1,0 +1,22 @@
+{
+  "name": "mylog",
+  "version": "0.0.1",
+  "authors": [
+    "Vivek Bharatha <vivek.bharatha@gmail.com>"
+  ],
+  "description": "Save your memories :)",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "angular-material": "~0.11.4"
+  }
+}

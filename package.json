@@ -1,0 +1,21 @@
+{
+  "name": "mylog",
+  "version": "0.0.1",
+  "description": "Save your memories :)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "toolbar": true,
+    "resizable": true,
+    "min_width": 600,
+    "min_height": 400,
+    "position": "center"
+  },
+  "author": "Vivek Bharatha",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.6.5"
+  }
+}
