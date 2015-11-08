@@ -1,0 +1,13 @@
+<md-content class="md-whiteframe-z1 list-block">
+   <div class="heading-primary">
+       <h1 class="md-headline home-header text-center">MyLog - Your Memories</h1>
+   </div>
+    <md-content>
+        <div class="md-whiteframe-z1 log-list-item " ng-repeat="log in logs">
+            <div class="row">
+                <p class="md-display-1 text-capitalize col-xs-10">{{ log.title }}</p>
+                <p class="md-display-1 text-capitalize col-xs-2 date-text">{{ log.date }}</p>
+            </div>
+        </div>
+    </md-content>
+</md-content>
